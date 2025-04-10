@@ -1,6 +1,8 @@
 %define module tornado
-%bcond_without test
-# disabled doc generation due to build issue
+# disable tests on abf, some require remote access
+# tests complete in local build
+%bcond_with test
+# disabled doc generation due to building issue
 # left it behind the conditional for a revisit
 %bcond_with docs
 
