@@ -1,0 +1,2 @@
+# teplates threated as headers
+addFilter("devel-file-in-non-devel-package")
